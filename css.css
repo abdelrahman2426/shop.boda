@@ -1,0 +1,149 @@
+ *{margin: 0;
+  padding: 0;
+  color: white;
+font-family: sans-serif;
+ }
+ body{
+    background: rgb(18, 18, 32);
+    display: flex;
+ }
+ .menu{
+   background-color: #123;
+   width: 70px;
+   height: 100vh;
+    position:sticky;
+    top: 0;
+   overflow: hidden;
+   flex-shrink: 0;
+   transition: .5s;
+   border: solid white 1px;
+ }
+ .menu:hover{
+   width: 260px;
+ }
+ ul{
+    list-style:none;
+ }
+ ul li a{
+ display: block;
+ text-decoration: none;
+ padding: 10px;
+ margin: 10px;
+ display: flex;
+ gap: 40px;
+border-radius: 5px;
+ }
+ ul li a:hover, .active,  .box:hover, td:hover{
+   background: #ffffff55;
+ }
+ ul li a i{
+   font-size: 30px;
+ }
+ ul li a p{
+   font-size: 20px;
+   letter-spacing: 1.5px;
+   align-items: center;
+ }
+ .log-out{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+ }
+ .log-out a {
+  background:rgb(244, 7, 7,.8);
+ }
+ 
+ .profile{
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+ 
+ }
+ .img img{
+   width: 50px;
+   height: 50px;
+   border: 3px solid white;
+   border-radius:50% ;
+ }
+ .profile h2{
+  font-size: 20px;
+ }
+ .content{
+  width: 100%;
+  margin: 15px;
+ }
+ .flex{
+  background: rgb(27, 142, 168);
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+ border-radius: 8px;
+ margin: 10px 0;
+ }
+ .all-boxs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+ }
+ .box{
+background-color:#123;
+flex-basis: 150px;
+height: 150px;
+flex-grow: 1;
+border-radius: 8px;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.data{
+text-align: center;
+}
+.box i{
+  font-size:40px ;
+}
+.data span{
+font-size: 30px;
+}
+.data p{
+  letter-spacing: 1.5px;
+  padding-bottom:4px ;
+}
+table{
+  width: 100%;
+  text-align: center;
+  border-spacing: 8px;
+}
+td,th{
+ background-color:#123;
+ height: 40px;
+ border-radius: 8px;
+}
+th{
+  background:  rgb(27, 142, 168);
+}
+.price{
+  background: green;
+}
+.count{
+  background: gold;
+  color: black;
+}
+.price,.count{
+  padding: 6px;
+  border-radius: 6px;
+}
+.welcome{
+  background-color: rgb(27, 142, 168) ;
+  letter-spacing: 4px;
+  font-size: 22px;
+  font-weight: 700;
+  border: solid 3px black;
+}
+.welcome:hover{
+background-color:  rgb(27, 142, 168);
+}
